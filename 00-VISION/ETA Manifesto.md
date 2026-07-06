@@ -6,5 +6,3 @@ status: Draft
 owner: Exir Tejarat Atlas
 classification: Internal
 ---
-
-# ETA Manifesto
