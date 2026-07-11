@@ -31,8 +31,7 @@
               "title": "HOME"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -105,7 +104,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOME.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +113,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for HOME"
+              "title": "Backlinks"
             }
           },
           {
@@ -124,12 +122,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HOME.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from HOME"
+              "title": "Outgoing links"
             }
           },
           {
@@ -167,13 +164,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HOME.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of HOME"
+              "title": "Outline"
             }
           },
           {
@@ -218,10 +214,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "259f3bdb7addc06f",
+  "active": "5b972bcb0a48793d",
   "lastOpenFiles": [
-    "GLOSSARY.md",
+    "01-BUSINESS/Value Proposition.md",
     "HOME.md",
+    "GLOSSARY.md",
     "LICENSE.md",
     "20-BRANDING/07-Assets/Templates/README.md",
     "20-BRANDING/07-Assets/Fonts/README.md",
@@ -251,7 +248,6 @@
     "20-BRANDING/02-Company-Profile/Company-Profile.md",
     "20-BRANDING/02-Company-Profile/Company-Presentation.md",
     "20-BRANDING/02-Company-Profile/Company-Brochure.md",
-    "20-BRANDING/05-Marketing/Social-Media.md",
     "20-BRANDING/06-Media",
     "20-BRANDING/04-Visual-Identity",
     "20-BRANDING/07-Assets",
