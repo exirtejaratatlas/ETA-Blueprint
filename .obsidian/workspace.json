@@ -1,0 +1,242 @@
+{
+  "main": {
+    "id": "dd41a7bd4cdac8e9",
+    "type": "split",
+    "children": [
+      {
+        "id": "99fd9c06f2af8e27",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5b972bcb0a48793d",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fb57e83086f5f5b1",
+    "type": "split",
+    "children": [
+      {
+        "id": "6ff22cdb0d0700c0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9758b6928232d8b9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "403f59ad5731b86d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "89de931731af319a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "526e9827186a3f69",
+    "type": "split",
+    "children": [
+      {
+        "id": "658bd52e4a1aa012",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ebf13fbea5ec9d0f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "de43b0cf7642853b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "6bb951bd6eedfb4d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "a88447136c08e822",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "88fa3fb7385d61ce",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "33a422e0d433de52",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "eb3f917a1b43bc8c",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 6
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "omnisearch:Omnisearch": false
+    }
+  },
+  "active": "eb3f917a1b43bc8c",
+  "lastOpenFiles": [
+    "20-BRANDING/07-Assets/Templates/README.md",
+    "20-BRANDING/07-Assets/Fonts/README.md",
+    "20-BRANDING/07-Assets/Logos/README.md",
+    "20-BRANDING/07-Assets/Images/README.md",
+    "20-BRANDING/07-Assets/Icons/README.md",
+    "20-BRANDING/07-Assets/3D/README.md",
+    "20-BRANDING/06-Media/Videos.md",
+    "20-BRANDING/06-Media/README.md",
+    "20-BRANDING/06-Media/Animations.md",
+    "20-BRANDING/06-Media/Photography.md",
+    "20-BRANDING/04-Visual-Identity/Typography.md",
+    "20-BRANDING/04-Visual-Identity/README.md",
+    "20-BRANDING/04-Visual-Identity/Imagery.md",
+    "20-BRANDING/04-Visual-Identity/Icons.md",
+    "20-BRANDING/04-Visual-Identity/Components.md",
+    "20-BRANDING/04-Visual-Identity/Colors.md",
+    "20-BRANDING/07-Assets/Templates",
+    "20-BRANDING/07-Assets/Logos",
+    "20-BRANDING/07-Assets/Images",
+    "20-BRANDING/07-Assets/Icons",
+    "20-BRANDING/07-Assets/Fonts",
+    "20-BRANDING/07-Assets/3D",
+    "20-BRANDING/02-Company-Profile/Services.md",
+    "20-BRANDING/02-Company-Profile/README.md",
+    "20-BRANDING/02-Company-Profile/Industries.md",
+    "20-BRANDING/02-Company-Profile/Company-Profile.md",
+    "20-BRANDING/02-Company-Profile/Company-Presentation.md",
+    "20-BRANDING/02-Company-Profile/Company-Brochure.md",
+    "20-BRANDING/05-Marketing/Social-Media.md",
+    "20-BRANDING/05-Marketing/Sales-Materials.md",
+    "20-BRANDING/05-Marketing/README.md",
+    "20-BRANDING/05-Marketing/Campaigns.md",
+    "20-BRANDING/06-Media",
+    "20-BRANDING/04-Visual-Identity",
+    "20-BRANDING/07-Assets",
+    "20-BRANDING/02-Company-Profile"
+  ]
+}
