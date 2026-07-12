@@ -216,6 +216,8 @@
   },
   "active": "5b972bcb0a48793d",
   "lastOpenFiles": [
+    "11-AI/PROJECT_RULES.md",
+    "11-AI/New Text Document.txt",
     "11-AI/PROMPTS.md",
     "11-AI/DECISIONS.md",
     "11-AI/CHANGELOG.md",
@@ -241,8 +243,6 @@
     "20-BRANDING/04-Visual-Identity/README.md",
     "20-BRANDING/04-Visual-Identity/Imagery.md",
     "20-BRANDING/04-Visual-Identity/Icons.md",
-    "20-BRANDING/04-Visual-Identity/Components.md",
-    "20-BRANDING/04-Visual-Identity/Colors.md",
     "20-BRANDING/07-Assets/Templates",
     "20-BRANDING/07-Assets/Logos",
     "20-BRANDING/07-Assets/Images",
@@ -250,7 +250,6 @@
     "20-BRANDING/07-Assets/Fonts",
     "20-BRANDING/07-Assets/3D",
     "20-BRANDING/06-Media",
-    "20-BRANDING/04-Visual-Identity",
-    "20-BRANDING/07-Assets"
+    "20-BRANDING/04-Visual-Identity"
   ]
 }
