@@ -216,6 +216,18 @@
   },
   "active": "5b972bcb0a48793d",
   "lastOpenFiles": [
+    "17-CHANGELOG/CHANGELOG.md",
+    "16-MEETINGS/MEETING_NOTES.md",
+    "15-AGENTS/AI_AGENTS.md",
+    "14-PROMPTS/MASTER_PROMPT.md",
+    "13-DECISIONS/DECISIONS.md",
+    "12-CHATLOGS/CHAT_HISTORY.md",
+    "17-CHANGELOG",
+    "16-MEETINGS",
+    "15-AGENTS",
+    "14-PROMPTS",
+    "13-DECISIONS",
+    "12-CHATLOGS",
     "11-AI/PROJECT_RULES.md",
     "11-AI/New Text Document.txt",
     "11-AI/PROMPTS.md",
@@ -238,18 +250,7 @@
     "20-BRANDING/06-Media/Videos.md",
     "20-BRANDING/06-Media/README.md",
     "20-BRANDING/06-Media/Animations.md",
-    "20-BRANDING/06-Media/Photography.md",
-    "20-BRANDING/04-Visual-Identity/Typography.md",
-    "20-BRANDING/04-Visual-Identity/README.md",
-    "20-BRANDING/04-Visual-Identity/Imagery.md",
-    "20-BRANDING/04-Visual-Identity/Icons.md",
     "20-BRANDING/07-Assets/Templates",
-    "20-BRANDING/07-Assets/Logos",
-    "20-BRANDING/07-Assets/Images",
-    "20-BRANDING/07-Assets/Icons",
-    "20-BRANDING/07-Assets/Fonts",
-    "20-BRANDING/07-Assets/3D",
-    "20-BRANDING/06-Media",
-    "20-BRANDING/04-Visual-Identity"
+    "20-BRANDING/07-Assets/Logos"
   ]
 }
