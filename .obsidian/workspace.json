@@ -11,14 +11,10 @@
             "id": "5b972bcb0a48793d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01-BUSINESS/Business Capabilities.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Business Capabilities"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           },
           {
@@ -108,7 +104,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01-BUSINESS/Business Capabilities.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +113,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Business Capabilities"
+              "title": "Backlinks"
             }
           },
           {
@@ -127,12 +122,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01-BUSINESS/Business Capabilities.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Business Capabilities"
+              "title": "Outgoing links"
             }
           },
           {
@@ -170,13 +164,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01-BUSINESS/Business Capabilities.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Business Capabilities"
+              "title": "Outline"
             }
           },
           {
@@ -223,6 +216,9 @@
   },
   "active": "5b972bcb0a48793d",
   "lastOpenFiles": [
+    "Untitled.canvas",
+    "01-BUSINESS/Business Capabilities.md",
+    "11-AI/DECISIONS.md",
     "01-BUSINESS/Business Model.md",
     "01-BUSINESS/Vision.md",
     "01-BUSINESS/Value Proposition.md",
@@ -246,7 +242,6 @@
     "11-AI/PROJECT_RULES.md",
     "11-AI/New Text Document.txt",
     "11-AI/PROMPTS.md",
-    "11-AI/DECISIONS.md",
     "11-AI/CHANGELOG.md",
     "11-AI/TASKS.md",
     "11-AI/PROJECT_STATUS.md",
@@ -255,8 +250,6 @@
     "HOME.md",
     "GLOSSARY.md",
     "LICENSE.md",
-    "20-BRANDING/07-Assets/Templates/README.md",
-    "20-BRANDING/07-Assets/Fonts/README.md",
     "20-BRANDING/07-Assets/Templates",
     "20-BRANDING/07-Assets/Logos"
   ]
