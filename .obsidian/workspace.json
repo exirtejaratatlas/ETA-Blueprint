@@ -11,10 +11,14 @@
             "id": "5b972bcb0a48793d",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "01-BUSINESS/Business Capabilities.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Business Capabilities"
             }
           },
           {
@@ -104,6 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "01-BUSINESS/Business Capabilities.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +118,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Business Capabilities"
             }
           },
           {
@@ -122,11 +127,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "01-BUSINESS/Business Capabilities.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Business Capabilities"
             }
           },
           {
@@ -164,12 +170,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "01-BUSINESS/Business Capabilities.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Business Capabilities"
             }
           },
           {
@@ -216,6 +223,14 @@
   },
   "active": "5b972bcb0a48793d",
   "lastOpenFiles": [
+    "01-BUSINESS/Business Model.md",
+    "01-BUSINESS/Vision.md",
+    "01-BUSINESS/Value Proposition.md",
+    "01-BUSINESS/Stakeholders.md",
+    "01-BUSINESS/Target Market.md",
+    "01-BUSINESS/Mission.md",
+    "01-BUSINESS/Market.md",
+    "01-BUSINESS/Company DNA.md",
     "17-CHANGELOG/CHANGELOG.md",
     "16-MEETINGS/MEETING_NOTES.md",
     "15-AGENTS/AI_AGENTS.md",
@@ -237,19 +252,11 @@
     "11-AI/PROJECT_STATUS.md",
     "11-AI/AI_CONTEXT.md",
     "11-AI",
-    "01-BUSINESS/Value Proposition.md",
     "HOME.md",
     "GLOSSARY.md",
     "LICENSE.md",
     "20-BRANDING/07-Assets/Templates/README.md",
     "20-BRANDING/07-Assets/Fonts/README.md",
-    "20-BRANDING/07-Assets/Logos/README.md",
-    "20-BRANDING/07-Assets/Images/README.md",
-    "20-BRANDING/07-Assets/Icons/README.md",
-    "20-BRANDING/07-Assets/3D/README.md",
-    "20-BRANDING/06-Media/Videos.md",
-    "20-BRANDING/06-Media/README.md",
-    "20-BRANDING/06-Media/Animations.md",
     "20-BRANDING/07-Assets/Templates",
     "20-BRANDING/07-Assets/Logos"
   ]
