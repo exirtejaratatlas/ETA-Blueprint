@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e0544593e50dab68",
+        "id": "3a4b075e9b423c38",
         "type": "tabs",
         "children": [
           {
-            "id": "184489058c80a80d",
+            "id": "19a98c8ddfd15f2d",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -173,17 +173,10 @@
             "id": "eb3f917a1b43bc8c",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Untitled 2.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "Untitled 2"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ],
@@ -202,48 +195,50 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "github-sync:Sync with Remote": false
     }
   },
-  "active": "184489058c80a80d",
+  "active": "19a98c8ddfd15f2d",
   "lastOpenFiles": [
+    "README.md",
+    "Reload app without saving.md",
+    "structure.txt",
+    "blueprint-tree.txt",
     "blueprint-tree-final.txt",
     "blueprint-files.csv",
-    "01-BUSINESS/Finance/Treasury Management.md",
-    "01-BUSINESS/Finance/Tax Processes.md",
-    "01-BUSINESS/Finance/README.md",
-    "01-BUSINESS/Finance/Profitability Model.md",
-    "01-BUSINESS/Finance/Management Accounting.md",
-    "01-BUSINESS/Finance/Import Export Finance.md",
-    "01-BUSINESS/Finance/Financial Risk Management.md",
-    "01-BUSINESS/Finance/Financial Policies.md",
-    "01-BUSINESS/Finance/Financial KPIs.md",
-    "01-BUSINESS/Finance/Financial Controls.md",
-    "01-BUSINESS/Finance/Financial Approval Matrix.md",
-    "01-BUSINESS/Finance/Finance Business Model.md",
-    "01-BUSINESS/Finance/Cost Accounting.md",
-    "01-BUSINESS/Finance/Compliance Framework.md",
-    "01-BUSINESS/Finance/Chart of Accounts Strategy.md",
-    "Untitled 2.canvas",
-    "01-BUSINESS/Finance/Audit & Internal Control.md",
-    "01-BUSINESS/Finance/Banking & Payments.md",
-    "01-BUSINESS/Finance/Cash Flow Management.md",
-    "01-BUSINESS/Finance/Budget & Forecasting.md",
-    "01-BUSINESS/Finance/Accounting Processes.md",
-    "01-BUSINESS/Finance",
-    "HOME.md",
-    "2026-07-14.md",
-    "Untitled 1.canvas",
-    "20-BRANDING/04-Visual-Identity/Colors.md",
-    "03-ARCHITECTURE/Technology-Stack.md",
-    "03-ARCHITECTURE/Scalability.md",
-    "structure.txt",
     "Untitled.canvas",
-    "17-CHANGELOG",
-    "16-MEETINGS",
-    "15-AGENTS",
-    "14-PROMPTS",
-    "13-DECISIONS",
-    "12-CHATLOGS"
+    "Untitled 2.canvas",
+    "Untitled 1.canvas",
+    "LICENSE.md",
+    "HOME.md",
+    "30-DIAGRAMS/UX/README.md",
+    "30-DIAGRAMS/Security/README.md",
+    "30-DIAGRAMS/Infrastructure/README.md",
+    "30-DIAGRAMS/Deployment/README.md",
+    "30-DIAGRAMS/Data/README.md",
+    "30-DIAGRAMS/Business-Process/README.md",
+    "30-DIAGRAMS/Business/README.md",
+    "30-DIAGRAMS/Architecture/README.md",
+    "30-DIAGRAMS/AI/README.md",
+    "30-DIAGRAMS/UX",
+    "30-DIAGRAMS/Security",
+    "30-DIAGRAMS/README.md",
+    "30-DIAGRAMS/Infrastructure",
+    "30-DIAGRAMS/Deployment",
+    "30-DIAGRAMS/Data",
+    "30-DIAGRAMS/Business-Process",
+    "2026-07-14.md",
+    "20-BRANDING/07-Assets/Templates/README.md",
+    "20-BRANDING/07-Assets/Logos/README.md",
+    "20-BRANDING/07-Assets/Icons/README.md",
+    "20-BRANDING/07-Assets/Images/README.md",
+    "20-BRANDING/07-Assets/Fonts/README.md",
+    "20-BRANDING/07-Assets/3D/README.md",
+    "20-BRANDING/06-Media/Videos.md",
+    "20-BRANDING/06-Media/README.md",
+    "20-BRANDING/06-Media/Photography.md",
+    "20-BRANDING/06-Media/Animations.md",
+    "20-BRANDING/05-Marketing/Social-Media.md"
   ]
 }
