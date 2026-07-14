@@ -173,18 +173,26 @@
             "id": "eb3f917a1b43bc8c",
             "type": "leaf",
             "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "git-view"
+              "type": "canvas",
+              "state": {
+                "file": "Untitled 2.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Untitled 2"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -199,43 +207,43 @@
   },
   "active": "184489058c80a80d",
   "lastOpenFiles": [
+    "blueprint-tree-final.txt",
+    "blueprint-files.csv",
+    "01-BUSINESS/Finance/Treasury Management.md",
+    "01-BUSINESS/Finance/Tax Processes.md",
+    "01-BUSINESS/Finance/README.md",
+    "01-BUSINESS/Finance/Profitability Model.md",
+    "01-BUSINESS/Finance/Management Accounting.md",
+    "01-BUSINESS/Finance/Import Export Finance.md",
+    "01-BUSINESS/Finance/Financial Risk Management.md",
+    "01-BUSINESS/Finance/Financial Policies.md",
+    "01-BUSINESS/Finance/Financial KPIs.md",
+    "01-BUSINESS/Finance/Financial Controls.md",
+    "01-BUSINESS/Finance/Financial Approval Matrix.md",
+    "01-BUSINESS/Finance/Finance Business Model.md",
+    "01-BUSINESS/Finance/Cost Accounting.md",
+    "01-BUSINESS/Finance/Compliance Framework.md",
+    "01-BUSINESS/Finance/Chart of Accounts Strategy.md",
+    "Untitled 2.canvas",
+    "01-BUSINESS/Finance/Audit & Internal Control.md",
+    "01-BUSINESS/Finance/Banking & Payments.md",
+    "01-BUSINESS/Finance/Cash Flow Management.md",
+    "01-BUSINESS/Finance/Budget & Forecasting.md",
+    "01-BUSINESS/Finance/Accounting Processes.md",
+    "01-BUSINESS/Finance",
     "HOME.md",
     "2026-07-14.md",
     "Untitled 1.canvas",
     "20-BRANDING/04-Visual-Identity/Colors.md",
     "03-ARCHITECTURE/Technology-Stack.md",
     "03-ARCHITECTURE/Scalability.md",
-    "03-ARCHITECTURE/Deployment-Architecture.md",
-    "03-ARCHITECTURE/Infrastructure-Architecture.md",
-    "03-ARCHITECTURE/Security-Architecture.md",
-    "03-ARCHITECTURE/AI-Architecture.md",
-    "03-ARCHITECTURE/Integration-Architecture.md",
-    "03-ARCHITECTURE/API-Architecture.md",
-    "03-ARCHITECTURE/Data-Architecture.md",
-    "03-ARCHITECTURE/Domain-Architecture.md",
-    "03-ARCHITECTURE/Application-Architecture.md",
-    "03-ARCHITECTURE/System-Architecture.md",
-    "03-ARCHITECTURE/Enterprise-Architecture.md",
-    "03-ARCHITECTURE/README.md",
     "structure.txt",
     "Untitled.canvas",
-    "01-BUSINESS/Business Capabilities.md",
-    "11-AI/DECISIONS.md",
-    "01-BUSINESS/Business Model.md",
-    "01-BUSINESS/Vision.md",
-    "01-BUSINESS/Value Proposition.md",
-    "01-BUSINESS/Stakeholders.md",
-    "01-BUSINESS/Target Market.md",
-    "01-BUSINESS/Mission.md",
-    "01-BUSINESS/Market.md",
     "17-CHANGELOG",
     "16-MEETINGS",
     "15-AGENTS",
     "14-PROMPTS",
     "13-DECISIONS",
-    "12-CHATLOGS",
-    "11-AI/New Text Document.txt",
-    "11-AI",
-    "20-BRANDING/07-Assets/Templates"
+    "12-CHATLOGS"
   ]
 }
