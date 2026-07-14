@@ -4,31 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "99fd9c06f2af8e27",
+        "id": "e0544593e50dab68",
         "type": "tabs",
         "children": [
           {
-            "id": "5b972bcb0a48793d",
+            "id": "184489058c80a80d",
             "type": "leaf",
             "state": {
               "type": "graph",
               "state": {},
               "icon": "lucide-git-fork",
               "title": "Graph view"
-            }
-          },
-          {
-            "id": "259f3bdb7addc06f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HOME.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "HOME"
             }
           }
         ]
@@ -84,7 +70,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -178,8 +165,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-ghost",
+              "title": "calendar"
             }
           },
           {
@@ -188,8 +175,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-ghost",
+              "title": "git-view"
             }
           }
         ],
@@ -207,15 +194,15 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false,
-      "templater-obsidian:Templater": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
-      "omnisearch:Omnisearch": false
+      "bases:Create new base": false
     }
   },
-  "active": "5b972bcb0a48793d",
+  "active": "184489058c80a80d",
   "lastOpenFiles": [
+    "HOME.md",
+    "2026-07-14.md",
+    "Untitled 1.canvas",
+    "20-BRANDING/04-Visual-Identity/Colors.md",
     "03-ARCHITECTURE/Technology-Stack.md",
     "03-ARCHITECTURE/Scalability.md",
     "03-ARCHITECTURE/Deployment-Architecture.md",
@@ -241,9 +228,6 @@
     "01-BUSINESS/Target Market.md",
     "01-BUSINESS/Mission.md",
     "01-BUSINESS/Market.md",
-    "01-BUSINESS/Company DNA.md",
-    "17-CHANGELOG/CHANGELOG.md",
-    "16-MEETINGS/MEETING_NOTES.md",
     "17-CHANGELOG",
     "16-MEETINGS",
     "15-AGENTS",
