@@ -1648,3 +1648,375 @@ Examples include:
 - Shipment Accuracy
 - Workflow Completion Rate
 - AI Recommendation Acceptance Rate
+
+# Reference Data Standards
+
+## Purpose
+
+Reference Data represents standardized lookup values shared across the ETA Enterprise Ecosystem.
+
+Unlike Master Data, Reference Data changes infrequently and provides consistency across all enterprise modules.
+
+Reference Data eliminates ambiguity and ensures that all systems use the same controlled vocabulary.
+
+---
+
+# Reference Data Principles
+
+Reference Data must be:
+
+- Standardized
+- Centrally Managed
+- Version Controlled
+- Shared Across Domains
+- AI Readable
+- API Accessible
+- Immutable by End Users
+
+---
+
+# Core Reference Data Domains
+
+ETA maintains the following enterprise reference datasets:
+
+- Countries
+- Currencies
+- Languages
+- Time Zones
+- Units of Measure
+- Incoterms
+- Payment Terms
+- Tax Codes
+- Product Categories
+- Industry Categories
+- Equipment Categories
+- Risk Levels
+- Priority Levels
+- Workflow Statuses
+- Approval Types
+- Shipment Methods
+- Packaging Types
+- Ports
+- Document Types
+
+---
+
+# Countries
+
+Standard
+
+ISO 3166-1 Alpha-2
+
+Examples
+
+- IR
+- AE
+- CN
+- DE
+- IT
+- TR
+- US
+
+Referenced By
+
+- Customer
+- Supplier
+- Manufacturer
+- Organization
+- Shipment
+
+---
+
+# Currencies
+
+Standard
+
+ISO 4217
+
+Examples
+
+- IRR
+- USD
+- EUR
+- AED
+- CNY
+- TRY
+
+Referenced By
+
+All financial transactions.
+
+---
+
+# Languages
+
+Supported Languages
+
+- English
+- Persian
+- Arabic
+
+Future
+
+- Turkish
+- Russian
+- Chinese
+
+---
+
+# Units of Measure
+
+Examples
+
+- PCS
+- KG
+- TON
+- METER
+- LITER
+- SET
+- BOX
+- ROLL
+
+Referenced By
+
+Products, Inventory, Procurement.
+
+---
+
+# Incoterms
+
+Supported according to ICC.
+
+- EXW
+- FCA
+- FOB
+- CFR
+- CIF
+- CPT
+- CIP
+- DAP
+- DPU
+- DDP
+
+---
+
+# Payment Terms
+
+Examples
+
+- Advance Payment
+- Net 30
+- Net 60
+- Net 90
+- Letter of Credit
+- Cash Against Documents
+
+---
+
+# Tax Codes
+
+Examples
+
+- VAT
+- Export Exempt
+- Import VAT
+- Withholding Tax
+
+---
+
+# Product Categories
+
+Examples
+
+- Steel
+- Pipe
+- Valve
+- Pump
+- Compressor
+- Motor
+- Gearbox
+- Instrumentation
+- Spare Parts
+- Service
+
+---
+
+# Industry Categories
+
+Supported Industries
+
+- Steel
+- Oil & Gas
+- Petrochemical
+- Power
+- Mining
+- Cement
+- Water
+- Infrastructure
+- Manufacturing
+
+---
+
+# Equipment Categories
+
+Examples
+
+- Rotating Equipment
+- Static Equipment
+- Electrical
+- Instrumentation
+- Mechanical
+- Civil
+- Structural
+
+---
+
+# Risk Levels
+
+Supported Values
+
+- Low
+- Medium
+- High
+- Critical
+
+Used By
+
+- Procurement
+- Projects
+- AI
+- Compliance
+
+---
+
+# Priority Levels
+
+Supported Values
+
+- Low
+- Normal
+- High
+- Urgent
+- Critical
+
+---
+
+# Workflow Status
+
+Standard Values
+
+- Draft
+- Pending
+- In Review
+- Approved
+- Rejected
+- Active
+- Completed
+- Cancelled
+- Archived
+
+---
+
+# Approval Types
+
+Examples
+
+- Technical
+- Commercial
+- Financial
+- Legal
+- Executive
+
+---
+
+# Shipment Methods
+
+Examples
+
+- Air Freight
+- Sea Freight
+- Road Transport
+- Rail Transport
+- Courier
+
+---
+
+# Packaging Types
+
+Examples
+
+- Wooden Box
+- Pallet
+- Carton
+- Crate
+- Bundle
+- Container
+
+---
+
+# Ports
+
+Reference list includes:
+
+- Bandar Abbas
+- Imam Khomeini Port
+- Jebel Ali
+- Shanghai
+- Hamburg
+- Rotterdam
+
+---
+
+# Document Types
+
+Supported Types
+
+- Datasheet
+- GA Drawing
+- Certificate
+- Invoice
+- Packing List
+- Purchase Order
+- Contract
+- RFQ
+- Quotation
+- Inspection Report
+
+---
+
+# Governance
+
+Reference Data changes require:
+
+1. Business Approval
+2. Architecture Review
+3. Documentation Update
+4. Version Increment
+
+End users cannot modify enterprise reference data directly.
+
+---
+
+# AI Usage
+
+Reference Data is used for:
+
+- Entity Recognition
+- Data Validation
+- Semantic Search
+- Knowledge Graph
+- AI Classification
+- Intelligent Recommendations
+
+---
+
+# Quality Rules
+
+Reference Data must satisfy:
+
+- No duplicate values
+- Stable identifiers
+- Human-readable names
+- Multi-language support
+- API availability
+- Version history
