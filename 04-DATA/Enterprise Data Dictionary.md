@@ -523,3 +523,412 @@ It augments enterprise knowledge while preserving the original source.
 # Long-Term Vision
 
 The Enterprise Data Dictionary serves as the foundation of every ETA system, ensuring that business knowledge, software architecture, enterprise integrations, analytics, and artificial intelligence all operate using one unified enterprise language.
+
+# Master Data Standards
+
+## Purpose
+
+Master Data represents the core business entities that remain relatively stable over time and are shared across multiple domains within the ETA Enterprise Ecosystem.
+
+Master Data serves as the foundation for all operational, analytical, and AI-driven processes.
+
+All transactional records must reference Master Data entities rather than duplicating business information.
+
+---
+
+# Master Data Principles
+
+Master Data must be:
+
+- Unique
+- Accurate
+- Consistent
+- Governed
+- Version Controlled
+- Searchable
+- AI Ready
+- Enterprise Shared
+
+---
+
+# Core Master Data Domains
+
+ETA maintains the following enterprise master data domains:
+
+- Customer
+- Supplier
+- Manufacturer
+- Product
+- Organization
+- User
+- Role
+- Country
+- Currency
+- Unit of Measure
+- Warehouse
+- Cost Center
+- Profit Center
+- Payment Terms
+- Incoterms
+- Tax
+- Document Type
+
+---
+
+# Customer Master Data
+
+Purpose
+
+Represents organizations purchasing products or services from ETA.
+
+Primary Identifier
+
+- Customer ID
+
+Business Identifier
+
+- Customer Code
+
+Mandatory Attributes
+
+- Legal Name
+- Commercial Name
+- Country
+- Industry
+- Tax Number
+- Status
+
+Owner Domain
+
+CRM
+
+Referenced By
+
+- Opportunity
+- Quotation
+- Contract
+- Project
+- Invoice
+- Payment
+
+---
+
+# Supplier Master Data
+
+Purpose
+
+Represents approved suppliers and distributors.
+
+Primary Identifier
+
+- Supplier ID
+
+Business Identifier
+
+- Supplier Code
+
+Mandatory Attributes
+
+- Legal Name
+- Country
+- Supplier Category
+- Qualification Status
+- Payment Terms
+
+Owner Domain
+
+Procurement
+
+Referenced By
+
+- RFQ
+- Quotation
+- Purchase Order
+- Contract
+- Shipment
+
+---
+
+# Manufacturer Master Data
+
+Purpose
+
+Represents Original Equipment Manufacturers (OEMs).
+
+Primary Identifier
+
+- Manufacturer ID
+
+Business Identifier
+
+- Manufacturer Code
+
+Mandatory Attributes
+
+- Legal Name
+- Brand
+- Country
+- Certifications
+- Product Categories
+
+Referenced By
+
+- Product
+- Supplier
+- Technical Documents
+
+---
+
+# Product Master Data
+
+Purpose
+
+Represents all products and services managed by ETA.
+
+Primary Identifier
+
+- Product ID
+
+Business Identifier
+
+- Product Code
+
+Mandatory Attributes
+
+- Product Name
+- Category
+- Unit of Measure
+- Manufacturer
+- Status
+
+Referenced By
+
+- RFQ
+- Quotation
+- Purchase Order
+- Inventory
+- Project
+
+---
+
+# Organization Master Data
+
+Purpose
+
+Represents legal entities operating within ETA.
+
+Examples
+
+- Exir Tejarat Atlas
+- Allison General Trading LLC
+
+Referenced By
+
+All enterprise transactions.
+
+---
+
+# User Master Data
+
+Purpose
+
+Represents authenticated enterprise users.
+
+Mandatory Attributes
+
+- User ID
+- Full Name
+- Email
+- Department
+- Role
+- Status
+
+Referenced By
+
+Every auditable business transaction.
+
+---
+
+# Country Master Data
+
+Purpose
+
+Standard list of countries.
+
+Standard
+
+ISO 3166
+
+Referenced By
+
+- Customer
+- Supplier
+- Manufacturer
+- Shipment
+- Organization
+
+---
+
+# Currency Master Data
+
+Purpose
+
+Standard list of supported currencies.
+
+Examples
+
+- IRR
+- USD
+- EUR
+- AED
+- CNY
+
+Referenced By
+
+All financial transactions.
+
+---
+
+# Unit of Measure
+
+Purpose
+
+Standard measurement units.
+
+Examples
+
+- PCS
+- KG
+- TON
+- METER
+- LITER
+- SET
+
+Referenced By
+
+Products and Inventory.
+
+---
+
+# Warehouse Master Data
+
+Purpose
+
+Represents physical and virtual inventory locations.
+
+Referenced By
+
+- Inventory
+- Procurement
+- Logistics
+- Projects
+
+---
+
+# Payment Terms
+
+Examples
+
+- Advance Payment
+- Net 30
+- Net 60
+- LC
+- CAD
+
+Referenced By
+
+Customers, Suppliers, Contracts, Invoices.
+
+---
+
+# Incoterms
+
+Supported according to ICC standards.
+
+Examples
+
+- EXW
+- FCA
+- FOB
+- CFR
+- CIF
+- CPT
+- CIP
+- DAP
+- DPU
+- DDP
+
+---
+
+# Tax Master Data
+
+Purpose
+
+Defines taxation rules.
+
+Referenced By
+
+Finance, Invoices, Contracts.
+
+---
+
+# Master Data Governance
+
+Every master entity must have:
+
+- Business Owner
+- Steward
+- Approval Workflow
+- Change History
+- Audit Trail
+
+Only the owning domain may modify master data.
+
+---
+
+# AI Usage
+
+Master Data powers:
+
+- Semantic Search
+- Knowledge Graph
+- Recommendation Engine
+- Supplier Matching
+- Product Matching
+- Customer Insights
+- AI Copilot
+
+Master Data is continuously enriched through AI while preserving the original authoritative record.
+
+---
+
+# Master Data Lifecycle
+
+Every Master Data entity follows the same lifecycle:
+
+1. Creation
+2. Validation
+3. Approval
+4. Activation
+5. Usage
+6. Update
+7. Versioning
+8. Deactivation
+9. Archive
+
+Master Data is never physically deleted from the enterprise repository.
+
+---
+
+# Master Data Quality KPIs
+
+The following KPIs are continuously monitored:
+
+- Duplicate Rate
+- Data Completeness
+- Validation Success Rate
+- Approval Time
+- Master Data Accuracy
+- AI Enrichment Coverage
+- Searchability Score
+- Reference Integrity
