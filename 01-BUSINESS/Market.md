@@ -1,18 +1,28 @@
 ---
 document_id: ETA-MARKET-001
-title: Market
-version: 1.0
+title: Market Strategy
+version: 2.0
 status: Approved
 owner: Exir Tejarat Atlas
 classification: Internal
 last_updated: 2026
 ---
 
-# Market
+# Market Strategy
 
-## Industry Overview
+## Purpose
 
-ETA operates in the Industrial Procurement market, serving organizations that require reliable sourcing, engineering support, and supply chain management for mission-critical industrial equipment.
+This document defines the market strategy, target industries, customer segments, supplier ecosystem, competitive positioning, geographic expansion, and long-term growth strategy of Exir Tejarat Atlas (ETA).
+
+It serves as the business foundation for sales strategy, marketing strategy, product roadmap, and enterprise planning.
+
+---
+
+# Industry Overview
+
+ETA operates within the Industrial Procurement market, serving organizations that require reliable sourcing, engineering expertise, enterprise procurement processes, and intelligent supplier management.
+
+Unlike traditional trading companies, ETA combines industrial procurement services with enterprise software and Artificial Intelligence.
 
 The platform focuses on high-value B2B procurement rather than consumer commerce.
 
@@ -20,7 +30,7 @@ The platform focuses on high-value B2B procurement rather than consumer commerce
 
 # Primary Industries
 
-ETA serves the following sectors:
+ETA focuses on industrial sectors including:
 
 - Steel Industry
 - Oil & Gas
@@ -31,62 +41,128 @@ ETA serves the following sectors:
 - Power Generation
 - Water & Wastewater
 - Heavy Manufacturing
-- EPC Projects
+- EPC Contractors
+- Industrial Automation
+- Infrastructure Projects
+
+---
+
+# Target Customers
+
+ETA serves multiple customer categories.
+
+## Industrial End Users
+
+Companies purchasing equipment for operations.
+
+Examples:
+
+- Steel Plants
+- Refineries
+- Petrochemical Complexes
+- Power Plants
+
+---
+
+## EPC Contractors
+
+Engineering, Procurement and Construction companies requiring complete procurement support.
+
+---
+
+## Industrial Manufacturers
+
+Manufacturers requiring sourcing, engineering support, and supply chain management.
+
+---
+
+## Government Organizations
+
+Organizations managing strategic industrial projects.
+
+---
+
+## Procurement Departments
+
+Corporate procurement teams seeking intelligent procurement tools.
+
+---
+
+# Supplier Ecosystem
+
+ETA builds an international supplier network.
+
+Supplier categories include:
+
+- Manufacturers
+- Authorized Distributors
+- Regional Suppliers
+- International Suppliers
+- OEM Partners
+- Engineering Partners
+- Logistics Partners
+- Inspection Companies
 
 ---
 
 # Geographic Markets
 
-## Primary
+## Phase 1
 
-- Iran
+Iran
 
-## Secondary
+---
+
+## Phase 2
 
 - United Arab Emirates
-- Iraq
-- Oman
-- Qatar
 - Saudi Arabia
+- Qatar
+- Oman
+- Kuwait
+- Iraq
 - Turkey
 
-## Long-Term Expansion
+---
 
-- GCC Countries
-- Central Asia
-- Europe
-- Southeast Asia
+## Phase 3
+
+Expansion across the Middle East and North Africa (MENA).
 
 ---
 
 # Market Challenges
 
-Industrial procurement today suffers from:
+Industrial procurement commonly suffers from:
 
 - Fragmented supplier information
-- Manual RFQ processes
+- Manual RFQ processing
 - Slow technical evaluation
 - Poor document management
 - Knowledge loss
-- Lack of procurement intelligence
+- Procurement bottlenecks
 - Limited supplier transparency
+- High procurement risk
+- Lack of procurement intelligence
 
-ETA addresses these challenges through AI, structured data, and enterprise automation.
+ETA addresses these challenges through enterprise software, structured data, workflow automation, and Artificial Intelligence.
 
 ---
 
-# Market Opportunity
+# Market Opportunities
 
-Growing demand exists for:
+The industrial sector is rapidly adopting:
 
-- Digital Procurement Platforms
+- Digital Procurement
 - AI-assisted Procurement
+- Enterprise Knowledge Management
 - Supplier Intelligence
 - Procurement Analytics
-- Engineering Knowledge Management
-- Enterprise Automation
+- Workflow Automation
+- API-based Integration
+- Cloud Enterprise Platforms
 
-ETA combines all of these capabilities within one ecosystem.
+ETA is designed specifically around these trends.
 
 ---
 
@@ -94,16 +170,87 @@ ETA combines all of these capabilities within one ecosystem.
 
 ETA competes with:
 
-- Traditional Trading Companies
+- Traditional Industrial Trading Companies
 - Procurement Service Providers
 - ERP Systems
 - CRM Platforms
 - Procurement Software Vendors
+- Supplier Portals
 
-Unlike competitors, ETA integrates procurement expertise with AI and enterprise knowledge.
+Unlike competitors, ETA combines:
+
+- Industrial Procurement
+- Engineering Knowledge
+- Artificial Intelligence
+- Enterprise Architecture
+- Supplier Intelligence
+- Digital Knowledge Management
+
+into one unified ecosystem.
 
 ---
 
-# Long-Term Position
+# Competitive Advantages
 
-ETA aims to become the leading AI-powered industrial procurement ecosystem in the Middle East, providing enterprise-grade procurement technology alongside real industrial sourcing expertise.
+ETA differentiates itself through:
+
+- AI-native procurement
+- Enterprise knowledge graph
+- Intelligent supplier intelligence
+- Engineering-assisted sourcing
+- Centralized document management
+- Procurement workflow automation
+- Integrated CRM + Procurement + Finance
+- Enterprise analytics
+- Regional industrial specialization
+
+---
+
+# Business Expansion Strategy
+
+ETA evolves through three stages.
+
+## Stage 1
+
+Industrial Trading Company
+
+---
+
+## Stage 2
+
+Enterprise Procurement Platform
+
+---
+
+## Stage 3
+
+Regional AI Procurement Ecosystem
+
+---
+
+# Success Metrics
+
+Market success will be measured by:
+
+- Number of Customers
+- Number of Suppliers
+- Number of Manufacturers
+- RFQs Processed
+- Procurement Volume
+- Annual Revenue
+- Customer Retention
+- AI Usage
+- Platform Adoption
+- Regional Expansion
+
+---
+
+# Long-Term Vision
+
+ETA aims to become the leading AI-powered industrial procurement ecosystem across the Middle East by integrating industrial expertise, engineering knowledge, enterprise software, supplier intelligence, and Artificial Intelligence into one scalable digital platform.
+
+---
+
+> ETA is not merely entering the industrial procurement market.
+
+> ETA is redefining how industrial procurement is executed.
