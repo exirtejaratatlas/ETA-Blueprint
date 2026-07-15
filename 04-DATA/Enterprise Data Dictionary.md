@@ -1,165 +1,525 @@
 ---
 document_id: ETA-DATA-001
 title: Enterprise Data Dictionary
-version: 1.0
-status: Draft
+version: 2.0
+status: Approved
 owner: Exir Tejarat Atlas
+classification: Internal
+last_updated: 2026
 ---
-
 # Enterprise Data Dictionary
 
 ## Purpose
 
-## Naming Standards
+The Enterprise Data Dictionary is the authoritative reference for every business entity, attribute, relationship, metadata standard, and governance rule across the ETA Enterprise Ecosystem.
 
-## Core Enterprise Entities
+It defines the common language used by business users, software developers, solution architects, AI agents, data engineers, ERP systems, APIs, analytics platforms, and external integrations.
+
+Every database table, API contract, AI model, Odoo object, workflow, and report must comply with this document.
+
+This document is the **Single Source of Truth (SSOT)** for enterprise data.
+
 ---
 
-# Customer
+# Scope
 
-## Description
+The Enterprise Data Dictionary governs all structured business data within ETA, including:
 
-Represents any organization or legal entity that purchases products or services from ETA.
+- Customer Data
+- Supplier Data
+- Manufacturer Data
+- Product Data
+- Procurement Data
+- RFQs
+- Quotations
+- Purchase Orders
+- Sales Orders
+- Contracts
+- Projects
+- Inventory
+- Logistics
+- Finance
+- Documents
+- AI Knowledge
+- Analytics
+- Identity & Security
+- Workflow Metadata
+- System Configuration
 
-## Entity Type
+This document applies to:
 
-Master Data
+- ETA Platform
+- Odoo ERP
+- CRM
+- Procurement Portal
+- Supplier Portal
+- Manufacturer Portal
+- Mobile Applications
+- REST APIs
+- AI Services
+- Data Warehouse
+- Business Intelligence
+- Knowledge Graph
 
-## Owner Domain
+---
 
-CRM
+# Objectives
 
-## Primary Identifier
+The Enterprise Data Dictionary exists to:
 
+- Standardize enterprise terminology.
+- Eliminate duplicate definitions.
+- Improve data quality.
+- Support enterprise integration.
+- Enable AI reasoning.
+- Improve reporting consistency.
+- Reduce implementation ambiguity.
+- Support scalable software architecture.
+- Preserve enterprise knowledge.
+
+---
+
+# Enterprise Data Principles
+
+ETA follows these enterprise data principles.
+
+## Single Source of Truth
+
+Every business entity has exactly one authoritative owner.
+
+Duplicate master data is prohibited.
+
+---
+
+## Business First
+
+Data structures reflect business concepts rather than software implementation.
+
+The business model always drives the data model.
+
+---
+
+## API First
+
+Every entity should be designed for API exposure.
+
+Internal and external integrations must consume standardized data structures.
+
+---
+
+## AI Ready
+
+Every entity must contain sufficient metadata for:
+
+- Retrieval
+- Semantic Search
+- Knowledge Graph
+- AI Reasoning
+- Recommendations
+- Analytics
+
+---
+
+## Odoo Native
+
+Whenever practical, entities should align with Odoo Enterprise models.
+
+ETA extends—not replaces—the ERP data model.
+
+---
+
+## Security by Design
+
+Every entity supports:
+
+- Ownership
+- Auditability
+- Access Control
+- Version History
+- Traceability
+
+---
+
+## Enterprise Scalability
+
+Entities must support:
+
+- Multi-company
+- Multi-country
+- Multi-currency
+- Multi-language
+- Multi-user
+
+without structural redesign.
+
+---
+
+# Enterprise Naming Convention
+
+## Documents
+
+```
+ETA-AREA-NUMBER
+```
+
+Examples
+
+```
+ETA-DATA-001
+ETA-BLUEPRINT-003
+ETA-AI-015
+```
+
+---
+
+## Entities
+
+Entity names use singular nouns.
+
+Examples
+
+- Customer
+- Supplier
+- Product
+- Project
+- Contract
+
+Never:
+
+- Customers
+- Products
+- Projects
+
+---
+
+## Database Tables
+
+snake_case
+
+Examples
+
+```
+customer
+supplier
+purchase_order
+project_task
+quotation
+```
+
+---
+
+## API Endpoints
+
+Plural resources
+
+```
+/customers
+/suppliers
+/projects
+/contracts
+```
+
+---
+
+## Primary Keys
+
+Every entity has one immutable identifier.
+
+Examples
+
+```
 Customer ID
+Supplier ID
+Project ID
+Contract ID
+```
 
-## Core Attributes
+IDs are never reused.
 
-- Customer ID
-- Customer Code
-- Legal Name
-- Commercial Name
-- Registration Number
-- National ID
-- Tax Number
-- Industry
-- Country
-- City
-- Address
-- Postal Code
-- Website
-- Phone
-- Email
-- Status
-- Customer Category
-- Credit Limit
-- Currency
-- Payment Terms
-- Incoterms
-- Sales Owner
-- Risk Level
+---
 
-## Relationships
+## Foreign Keys
 
-Customer
-→ Opportunities
+Foreign Keys always reference the Primary Identifier.
 
-Customer
-→ Quotations
+Examples
 
-Customer
-→ Contracts
+```
+Customer ID
+Supplier ID
+Project ID
+```
 
-Customer
-→ Projects
+Never duplicate business identifiers.
 
-Customer
-→ Invoices
+---
 
-Customer
-→ Payments
+# Data Classification
 
-## Created By
-
-CRM
-
-## Read By
-
-Procurement
-
-Finance
-
-Projects
-
-AI
-
-Reporting
-
-## Update Rules
-
-Only CRM can modify Customer Master Data.
-
-## Business Rules
-
-- Customer Code must be unique.
-- Legal Name cannot be empty.
-- One Tax Number per Customer.
-- Customer Status controls transaction availability.
-
-## AI Usage
-
-- Customer Scoring
-- Sales Prediction
-- Opportunity Recommendation
-- Risk Analysis
-- Customer Insights
-
-### Customer
-
-### Supplier
-
-### Manufacturer
-
-### Product
-
-### RFQ
-
-### Quotation
-
-### Purchase Order
-
-### Contract
-
-### Warehouse
-
-### Inventory
-
-### Invoice
-
-### Payment
-
-### Tax
-
-### Project
-
-### User
-
-### Role
-
-### Permission
-
-### AI Knowledge
-
-## Relationships
+ETA classifies enterprise information into four categories.
 
 ## Master Data
 
+Stable business objects.
+
+Examples
+
+- Customer
+- Supplier
+- Manufacturer
+- Product
+- User
+- Currency
+- Country
+
+---
+
 ## Transaction Data
+
+Operational records.
+
+Examples
+
+- RFQ
+- Quotation
+- Purchase Order
+- Invoice
+- Payment
+- Shipment
+
+---
 
 ## Reference Data
 
-## Data Ownership
+Controlled lists used throughout the platform.
 
-## Data Lifecycle
+Examples
 
-## Data Quality Rules
+- Incoterms
+- Payment Terms
+- Units
+- Countries
+- Currencies
+- Industries
+
+---
+
+## Analytical Data
+
+Derived information.
+
+Examples
+
+- KPIs
+- AI Scores
+- Forecasts
+- Dashboards
+- Risk Ratings
+
+---
+
+# Data Ownership
+
+Every entity has one business owner.
+
+| Domain | Owner |
+|---------|-------|
+| Customer | CRM |
+| Supplier | Procurement |
+| Manufacturer | Procurement |
+| Product | Engineering |
+| Contract | Legal / Commercial |
+| Project | Project Management |
+| Inventory | Warehouse |
+| Finance | Finance |
+| User | Administration |
+| AI Knowledge | AI Platform |
+
+Ownership determines:
+
+- Creation
+- Modification
+- Validation
+- Governance
+
+---
+
+# Enterprise Metadata Standard
+
+Every business entity must contain the following metadata.
+
+## Mandatory Fields
+
+- ID
+- Created Date
+- Created By
+- Modified Date
+- Modified By
+- Status
+- Company
+- Version
+- Active Flag
+
+---
+
+## Optional Metadata
+
+- Source System
+- External Identifier
+- Import Batch
+- AI Tags
+- Search Keywords
+- Classification
+- Business Owner
+
+---
+
+# Document Governance
+
+Changes to enterprise data definitions require:
+
+1. Business approval
+2. Architecture review
+3. Documentation update
+4. Git commit
+5. Version increment
+
+No implementation may precede documentation.
+
+---
+
+# Versioning Rules
+
+Major Version
+
+Structural changes.
+
+Example
+
+```
+1.0 → 2.0
+```
+
+Minor Version
+
+Business enhancements.
+
+Example
+
+```
+2.0 → 2.1
+```
+
+Patch Version
+
+Editorial corrections.
+
+Example
+
+```
+2.1 → 2.1.1
+```
+
+---
+
+# Enterprise Identifier Standards
+
+Every enterprise entity must use globally unique identifiers.
+
+Supported identifier types include:
+
+- UUID
+- Auto Increment ID
+- Business Code
+- External System ID
+
+Each entity should maintain:
+
+- Internal Identifier
+- Business Identifier
+- External Reference (optional)
+
+Identifiers are immutable throughout the entity lifecycle.
+
+---
+
+# Standard Audit Fields
+
+Every transactional entity must include:
+
+- Created By
+- Created Date
+- Modified By
+- Modified Date
+- Approved By
+- Approved Date
+- Status
+- Version
+- Company
+- Active Flag
+- Deleted Flag (Soft Delete)
+- Row Version (Concurrency Control)
+
+Audit fields are mandatory for enterprise traceability.
+
+---
+
+# Data Quality Principles
+
+ETA follows the following enterprise data quality dimensions:
+
+- Accuracy
+- Completeness
+- Consistency
+- Timeliness
+- Uniqueness
+- Validity
+- Integrity
+- Traceability
+
+Every business entity should satisfy these dimensions before becoming Active.
+
+---
+
+# Enterprise Search Standards
+
+Every searchable entity should expose:
+
+- Search Title
+- Search Keywords
+- Search Tags
+- AI Embeddings
+- Full Text Index
+- Business Classification
+
+These fields support:
+
+- Enterprise Search
+- AI Retrieval
+- Knowledge Graph
+- RAG
+- Semantic Search
+
+---
+
+# AI Data Principles
+
+Enterprise data should be designed for AI consumption.
+
+Each entity should support:
+
+- AI Classification
+- AI Embeddings
+- AI Summary
+- AI Relationships
+- AI Confidence Score
+- AI Recommendations
+
+AI-generated information never replaces business data.
+
+It augments enterprise knowledge while preserving the original source.
+
+---
+# Long-Term Vision
+
+The Enterprise Data Dictionary serves as the foundation of every ETA system, ensuring that business knowledge, software architecture, enterprise integrations, analytics, and artificial intelligence all operate using one unified enterprise language.
