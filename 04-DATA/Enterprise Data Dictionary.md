@@ -932,3 +932,719 @@ The following KPIs are continuously monitored:
 - AI Enrichment Coverage
 - Searchability Score
 - Reference Integrity
+
+# Transaction Data Standards
+
+## Purpose
+
+Transaction Data represents all operational business activities performed within the ETA Enterprise Ecosystem.
+
+Unlike Master Data, Transaction Data changes continuously and records the execution of business processes.
+
+Transaction Data provides the operational history required for procurement, finance, logistics, analytics, compliance, and artificial intelligence.
+
+---
+
+# Transaction Data Principles
+
+Every transaction must be:
+
+- Traceable
+- Auditable
+- Immutable after approval
+- Linked to Master Data
+- Time-stamped
+- Version Controlled
+- AI Searchable
+- Security Classified
+
+---
+
+# Core Transaction Domains
+
+ETA manages the following enterprise transaction entities:
+
+- Opportunity
+- RFQ
+- Quotation
+- Sales Order
+- Purchase Order
+- Contract
+- Project
+- Invoice
+- Payment
+- Shipment
+- Inventory Movement
+- Approval
+- Workflow Instance
+- Audit Event
+- AI Recommendation
+
+---
+
+# Opportunity
+
+Purpose
+
+Represents a commercial sales opportunity before procurement begins.
+
+Owner
+
+CRM
+
+Lifecycle
+
+Lead
+→ Qualified
+→ Proposal
+→ Negotiation
+→ Won / Lost
+
+Referenced By
+
+- Customer
+- Quotation
+- Contract
+- Project
+
+---
+
+# Request For Quotation (RFQ)
+
+Purpose
+
+Represents customer procurement requests.
+
+Mandatory Information
+
+- RFQ Number
+- Customer
+- Project
+- Products
+- Required Delivery Date
+- Technical Documents
+
+Referenced By
+
+- Quotation
+- Supplier
+- Procurement
+
+---
+
+# Quotation
+
+Purpose
+
+Represents supplier or customer commercial offers.
+
+Mandatory Information
+
+- Quote Number
+- RFQ Reference
+- Supplier
+- Customer
+- Currency
+- Validity
+- Commercial Terms
+
+Referenced By
+
+- Purchase Order
+- Sales Order
+- Contract
+
+---
+
+# Purchase Order
+
+Purpose
+
+Represents approved procurement orders.
+
+Mandatory Information
+
+- PO Number
+- Supplier
+- Contract
+- Currency
+- Payment Terms
+- Delivery Terms
+
+Status
+
+Draft
+
+Approved
+
+Released
+
+Closed
+
+Cancelled
+
+---
+
+# Sales Order
+
+Purpose
+
+Represents approved customer sales.
+
+Referenced By
+
+- Customer
+- Invoice
+- Shipment
+
+---
+
+# Invoice
+
+Purpose
+
+Represents financial billing documents.
+
+Referenced By
+
+- Customer
+- Supplier
+- Payment
+- Finance
+
+---
+
+# Payment
+
+Purpose
+
+Represents incoming and outgoing financial transactions.
+
+Examples
+
+- Customer Payment
+- Supplier Payment
+- Advance Payment
+- Refund
+
+---
+
+# Shipment
+
+Purpose
+
+Represents logistics execution.
+
+Contains
+
+- Shipment Number
+- Carrier
+- Incoterm
+- Origin
+- Destination
+- Tracking Number
+
+---
+
+# Inventory Movement
+
+Purpose
+
+Tracks stock movement.
+
+Movement Types
+
+- Receipt
+- Issue
+- Transfer
+- Adjustment
+- Return
+
+---
+
+# Approval
+
+Purpose
+
+Represents approval decisions across ETA.
+
+Examples
+
+- PO Approval
+- Contract Approval
+- Budget Approval
+- Invoice Approval
+
+---
+
+# Workflow Instance
+
+Purpose
+
+Represents execution of enterprise workflows.
+
+Examples
+
+- RFQ Workflow
+- Procurement Workflow
+- Contract Workflow
+- Finance Workflow
+
+---
+
+# Audit Event
+
+Purpose
+
+Records every critical business action.
+
+Contains
+
+- User
+- Action
+- Timestamp
+- Entity
+- Previous Value
+- New Value
+
+Audit Events cannot be modified.
+
+---
+
+# AI Recommendation
+
+Purpose
+
+Stores AI-generated recommendations.
+
+Examples
+
+- Recommended Supplier
+- Risk Alert
+- Technical Match
+- Procurement Optimization
+- Pricing Insight
+
+AI recommendations never overwrite business transactions.
+
+---
+
+# Transaction Lifecycle
+
+All transaction entities follow:
+
+1. Draft
+2. Validation
+3. Review
+4. Approval
+5. Execution
+6. Completion
+7. Archive
+
+Certain entities support:
+
+- Rejection
+- Cancellation
+- Revision
+
+---
+
+# Transaction Integrity Rules
+
+Every transaction:
+
+- References valid Master Data.
+- Has one unique Transaction ID.
+- Contains complete audit history.
+- Records timestamps.
+- Maintains approval status.
+- Cannot violate business rules.
+
+---
+
+# AI Usage
+
+Transaction Data powers:
+
+- Procurement Analytics
+- AI Copilot
+- Forecasting
+- Supplier Recommendations
+- Delivery Prediction
+- Risk Detection
+- Executive Reporting
+- Knowledge Graph Updates
+
+---
+
+# Transaction KPIs
+
+Examples include:
+
+- RFQ Cycle Time
+- Procurement Lead Time
+- Quote Response Time
+- PO Approval Time
+- Invoice Processing Time
+- Payment Delay
+- Shipment Accuracy
+- Workflow Completion Rate
+- AI Recommendation Acceptance Rate
+
+# Transaction Data Standards
+
+## Purpose
+
+Transaction Data represents all operational business activities performed within the ETA Enterprise Ecosystem.
+
+Unlike Master Data, Transaction Data changes continuously and records the execution of business processes.
+
+Transaction Data provides the operational history required for procurement, finance, logistics, analytics, compliance, and artificial intelligence.
+
+---
+
+# Transaction Data Principles
+
+Every transaction must be:
+
+- Traceable
+- Auditable
+- Immutable after approval
+- Linked to Master Data
+- Time-stamped
+- Version Controlled
+- AI Searchable
+- Security Classified
+
+---
+
+# Core Transaction Domains
+
+ETA manages the following enterprise transaction entities:
+
+- Opportunity
+- RFQ
+- Quotation
+- Sales Order
+- Purchase Order
+- Contract
+- Project
+- Invoice
+- Payment
+- Shipment
+- Inventory Movement
+- Approval
+- Workflow Instance
+- Audit Event
+- AI Recommendation
+
+---
+
+# Opportunity
+
+Purpose
+
+Represents a commercial sales opportunity before procurement begins.
+
+Owner
+
+CRM
+
+Lifecycle
+
+Lead
+→ Qualified
+→ Proposal
+→ Negotiation
+→ Won / Lost
+
+Referenced By
+
+- Customer
+- Quotation
+- Contract
+- Project
+
+---
+
+# Request For Quotation (RFQ)
+
+Purpose
+
+Represents customer procurement requests.
+
+Mandatory Information
+
+- RFQ Number
+- Customer
+- Project
+- Products
+- Required Delivery Date
+- Technical Documents
+
+Referenced By
+
+- Quotation
+- Supplier
+- Procurement
+
+---
+
+# Quotation
+
+Purpose
+
+Represents supplier or customer commercial offers.
+
+Mandatory Information
+
+- Quote Number
+- RFQ Reference
+- Supplier
+- Customer
+- Currency
+- Validity
+- Commercial Terms
+
+Referenced By
+
+- Purchase Order
+- Sales Order
+- Contract
+
+---
+
+# Purchase Order
+
+Purpose
+
+Represents approved procurement orders.
+
+Mandatory Information
+
+- PO Number
+- Supplier
+- Contract
+- Currency
+- Payment Terms
+- Delivery Terms
+
+Status
+
+Draft
+
+Approved
+
+Released
+
+Closed
+
+Cancelled
+
+---
+
+# Sales Order
+
+Purpose
+
+Represents approved customer sales.
+
+Referenced By
+
+- Customer
+- Invoice
+- Shipment
+
+---
+
+# Invoice
+
+Purpose
+
+Represents financial billing documents.
+
+Referenced By
+
+- Customer
+- Supplier
+- Payment
+- Finance
+
+---
+
+# Payment
+
+Purpose
+
+Represents incoming and outgoing financial transactions.
+
+Examples
+
+- Customer Payment
+- Supplier Payment
+- Advance Payment
+- Refund
+
+---
+
+# Shipment
+
+Purpose
+
+Represents logistics execution.
+
+Contains
+
+- Shipment Number
+- Carrier
+- Incoterm
+- Origin
+- Destination
+- Tracking Number
+
+---
+
+# Inventory Movement
+
+Purpose
+
+Tracks stock movement.
+
+Movement Types
+
+- Receipt
+- Issue
+- Transfer
+- Adjustment
+- Return
+
+---
+
+# Approval
+
+Purpose
+
+Represents approval decisions across ETA.
+
+Examples
+
+- PO Approval
+- Contract Approval
+- Budget Approval
+- Invoice Approval
+
+---
+
+# Workflow Instance
+
+Purpose
+
+Represents execution of enterprise workflows.
+
+Examples
+
+- RFQ Workflow
+- Procurement Workflow
+- Contract Workflow
+- Finance Workflow
+
+---
+
+# Audit Event
+
+Purpose
+
+Records every critical business action.
+
+Contains
+
+- User
+- Action
+- Timestamp
+- Entity
+- Previous Value
+- New Value
+
+Audit Events cannot be modified.
+
+---
+
+# AI Recommendation
+
+Purpose
+
+Stores AI-generated recommendations.
+
+Examples
+
+- Recommended Supplier
+- Risk Alert
+- Technical Match
+- Procurement Optimization
+- Pricing Insight
+
+AI recommendations never overwrite business transactions.
+
+---
+
+# Transaction Lifecycle
+
+All transaction entities follow:
+
+1. Draft
+2. Validation
+3. Review
+4. Approval
+5. Execution
+6. Completion
+7. Archive
+
+Certain entities support:
+
+- Rejection
+- Cancellation
+- Revision
+
+---
+
+# Transaction Integrity Rules
+
+Every transaction:
+
+- References valid Master Data.
+- Has one unique Transaction ID.
+- Contains complete audit history.
+- Records timestamps.
+- Maintains approval status.
+- Cannot violate business rules.
+
+---
+
+# AI Usage
+
+Transaction Data powers:
+
+- Procurement Analytics
+- AI Copilot
+- Forecasting
+- Supplier Recommendations
+- Delivery Prediction
+- Risk Detection
+- Executive Reporting
+- Knowledge Graph Updates
+
+---
+
+# Transaction KPIs
+
+Examples include:
+
+- RFQ Cycle Time
+- Procurement Lead Time
+- Quote Response Time
+- PO Approval Time
+- Invoice Processing Time
+- Payment Delay
+- Shipment Accuracy
+- Workflow Completion Rate
+- AI Recommendation Acceptance Rate
