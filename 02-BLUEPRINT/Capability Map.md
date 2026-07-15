@@ -232,3 +232,166 @@ The ETA Capability Map serves as the master reference for:
 - AI Integration
 
 Every future feature must be mapped to at least one enterprise capability before implementation.
+# Finance
+
+Capabilities
+
+## Financial Accounting
+
+- General Ledger
+- Journal Entries
+- Trial Balance
+- Financial Statements
+
+## Accounts Payable
+
+- Vendor Invoice
+- Payment Processing
+- Vendor Settlement
+
+## Accounts Receivable
+
+- Customer Invoice
+- Collections
+- Credit Control
+
+## Treasury
+
+- Cash Management
+- Bank Accounts
+- Exchange Rates
+- Cash Forecasting
+
+## Budget & Planning
+
+- Budget Planning
+- Budget Monitoring
+- Forecasting
+
+## Cost Management
+
+- Cost Centers
+- Profit Centers
+- Cost Allocation
+
+## Tax
+
+- VAT
+- Withholding Tax
+- Customs
+- Tax Reporting
+
+## Financial Reporting
+
+- Management Reports
+- Executive Reports
+- Financial KPIs
+
+## Finance AI
+
+- Cash Flow Prediction
+- Fraud Detection
+- Financial Insights
+- Expense Analysis
+
+---
+
+# Project
+
+Capabilities
+
+- Project Planning
+- Resource Planning
+- Project Budget
+- Project Cost Control
+- Project Schedule
+- Project Progress
+- Project Reporting
+- Project AI
+
+---
+
+# Contract
+
+Capabilities
+
+- Contract Lifecycle
+- Contract Approval
+- Contract Versioning
+- Renewals
+- Claims
+- Obligations
+- Digital Signature
+- Contract AI
+
+---
+
+# Inventory
+
+Capabilities
+
+- Warehouse
+- Stock
+- Goods Receipt
+- Goods Issue
+- Reservations
+- Transfers
+- Cycle Count
+- Inventory AI
+
+---
+
+# Workflow
+
+Capabilities
+
+- Approval Engine
+- Business Rules
+- Escalation
+- Tasks
+- SLA
+- Notifications
+- Workflow Designer
+
+---
+
+# Compliance
+
+Capabilities
+
+- Audit
+- ISO
+- Vendor Compliance
+- Financial Compliance
+- Document Retention
+- Risk Monitoring
+
+---
+
+# Identity
+
+Capabilities
+
+- Users
+- Roles
+- Permissions
+- SSO
+- MFA
+- Organizations
+- Delegation
+
+---
+
+# Capability Ownership
+
+| Capability | Domain |
+|------------|---------|
+| RFQ | Procurement |
+| Supplier Evaluation | Supplier |
+| Journal Entry | Finance |
+| Contract Renewal | Contract |
+| Inventory Transfer | Inventory |
+| Customer Opportunity | CRM |
+| AI Recommendation | AI |
+| Approval Workflow | Workflow |
+
