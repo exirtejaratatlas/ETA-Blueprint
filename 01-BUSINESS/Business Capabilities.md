@@ -1,137 +1,349 @@
 ---
 document_id: ETA-CAP-001
-title: Business Capabilities
-version: 1.0
+title: Enterprise Business Capabilities
+version: 2.0
 status: Approved
 owner: Exir Tejarat Atlas
 classification: Internal
 last_updated: 2026
 ---
 
-# Business Capabilities
+# Enterprise Business Capabilities
 
-## Core Capabilities
+## Purpose
 
-Exir Tejarat Atlas delivers integrated industrial procurement services supported by engineering knowledge, supplier intelligence, and digital technologies.
+This document defines the complete set of business capabilities provided by the ETA Enterprise Ecosystem.
+
+Business Capabilities describe **what ETA is capable of doing**, independent of software, implementation, or technology.
+
+These capabilities form the foundation for:
+
+- Enterprise Architecture
+- Domain Architecture
+- AI Architecture
+- Odoo Mapping
+- API Design
+- Database Design
+- Workflow Design
+- Roadmap Planning
+- Product Development
 
 ---
 
-# Procurement
+# Capability Principles
 
-- Global Strategic Sourcing
-- Supplier Identification
+Every capability must be:
+
+- Business-driven
+- Technology-independent
+- Modular
+- Reusable
+- Scalable
+- Secure
+- AI-enabled
+- Enterprise-grade
+
+---
+
+# Level 1 Business Capabilities
+
+## Executive Management
+
+### Level 2 Capabilities
+
+- Executive Dashboard
+- Strategic Planning
+- Enterprise KPIs
+- Business Intelligence
+- Performance Management
+- Risk Monitoring
+- AI Executive Insights
+
+---
+
+## Customer Management
+
+### Level 2 Capabilities
+
+- Customer Registration
+- Customer Master Data
+- Customer Segmentation
+- Customer Profile Management
+- Customer Credit Management
+- Customer Communication
+- Customer Lifecycle
+
+---
+
+## Sales Management
+
+### Level 2 Capabilities
+
+- Lead Management
+- Opportunity Management
+- Sales Pipeline
+- Quotation Management
+- Sales Forecasting
+- Activity Management
+- Sales Analytics
+
+---
+
+## Procurement Management
+
+### Level 2 Capabilities
+
 - RFQ Management
-- Technical Bid Evaluation
+- Supplier Invitation
+- Technical Evaluation
 - Commercial Evaluation
-- Vendor Qualification
+- Vendor Selection
 - Purchase Order Management
-- Contract Support
-
----
-
-# Engineering
-
-- Technical Specification Review
-- Datasheet Verification
-- Manufacturer Matching
-- Material Selection
-- Equipment Identification
-- Reverse Engineering Support
-- Replacement Solution Recommendation
-
----
-
-# Industrial Supply
-
-Products include:
-
-- Steel Products
-- Rotating Equipment
-- Static Equipment
-- Valves
-- Pumps
-- Compressors
-- Electric Motors
-- Gearboxes
-- Instrumentation
-- Spare Parts
-
----
-
-# Supplier Intelligence
-
-ETA maintains structured knowledge regarding:
-
-- Manufacturers
-- Distributors
-- Approved Vendors
-- Regional Suppliers
-- International Suppliers
-- Vendor Performance
-- Vendor History
-
----
-
-# Digital Capabilities
-
-ETA Platform provides:
-
-- CRM
-- Procurement Management
-- AI Assistant
-- Supplier Portal
-- Manufacturer Portal
-- Document Management
-- Workflow Automation
-- Dashboard & Analytics
-
----
-
-# Artificial Intelligence
-
-ETA integrates AI into:
-
-- Procurement Decisions
-- Supplier Search
-- Technical Matching
-- Document Analysis
-- RFQ Generation
-- Knowledge Retrieval
-- Commercial Recommendation
-- Data Analysis
-
----
-
-# Logistics
-
-- International Shipping Coordination
-- Customs Documentation
 - Delivery Tracking
-- Inspection Coordination
-- Incoterms Management
+- Procurement Workflow
+- Procurement Analytics
+- Procurement Intelligence
 
 ---
 
-# Financial Support
+## Supplier Management
 
-- Commercial Proposal Preparation
-- Cost Analysis
-- Currency Monitoring
-- Payment Tracking
-- Procurement Cost Optimization
+### Level 2 Capabilities
+
+- Supplier Registration
+- Supplier Qualification
+- Supplier Evaluation
+- Approved Vendor List
+- Supplier Performance
+- Supplier Risk Assessment
+- Supplier Communication
+- Supplier Classification
 
 ---
 
-# Knowledge Management
+## Manufacturer Management
 
-ETA continuously builds an enterprise knowledge base including:
+### Level 2 Capabilities
 
-- Projects
-- Suppliers
-- Manufacturers
+- Manufacturer Registration
+- Product Portfolio
+- Technical Catalogs
+- Certifications
+- Brand Management
+- Manufacturer Relationships
+- Technical Documentation
+
+---
+
+## Product Management
+
+### Level 2 Capabilities
+
+- Product Master Data
+- Product Categories
+- Technical Datasheets
+- Technical Specifications
+- Standards
+- Certifications
+- Product Search
+- Product Comparison
+
+---
+
+## Inventory Management
+
+### Level 2 Capabilities
+
+- Warehouse Management
+- Inventory Control
+- Stock Monitoring
+- Material Availability
+- Serial Number Tracking
+- Lot Management
+- Inventory Analytics
+
+---
+
+## Project Management
+
+### Level 2 Capabilities
+
+- Project Registration
+- Procurement Planning
+- Resource Allocation
+- Milestone Tracking
+- Cost Monitoring
+- Project Documentation
+- Project Reporting
+
+---
+
+## Contract Management
+
+### Level 2 Capabilities
+
+- Contract Creation
+- Contract Approval
+- Contract Lifecycle
+- Contract Compliance
+- Amendment Management
+- Contract Repository
+- Contract Analytics
+
+---
+
+## Finance Management
+
+### Level 2 Capabilities
+
+- General Ledger
+- Accounts Payable
+- Accounts Receivable
+- Treasury Management
+- Cash Flow Management
+- Cost Accounting
+- Budget Management
+- Financial Reporting
+- Tax Management
+- Profitability Analysis
+- Currency Management
+- Payment Management
+
+---
+
+## Knowledge Management
+
+### Level 2 Capabilities
+
+- Enterprise Knowledge Base
 - Technical Documents
-- Quotations
-- Engineering Experience
-- Procurement History
+- Engineering Standards
+- Lessons Learned
+- Historical Projects
+- Knowledge Graph
+- Enterprise Search
+- Document Intelligence
 
-This knowledge becomes reusable through the ETA AI ecosystem.
+---
+
+## Artificial Intelligence
+
+### Level 2 Capabilities
+
+- AI Assistant
+- AI Procurement Advisor
+- AI Sales Assistant
+- AI Document Analysis
+- AI Knowledge Search
+- AI Recommendation Engine
+- AI Risk Prediction
+- AI Executive Insights
+- AI Workflow Automation
+
+---
+
+## Analytics & Reporting
+
+### Level 2 Capabilities
+
+- Executive Reports
+- Sales Reports
+- Procurement Reports
+- Supplier Reports
+- Financial Reports
+- Operational Dashboards
+- AI Analytics
+- KPI Monitoring
+
+---
+
+## Workflow Management
+
+### Level 2 Capabilities
+
+- Workflow Engine
+- Approval Management
+- Task Management
+- Business Rules
+- Process Automation
+- Notification Management
+- Escalation Rules
+
+---
+
+## Identity & Security
+
+### Level 2 Capabilities
+
+- User Management
+- Role Management
+- Permission Management
+- Authentication
+- Authorization
+- Audit Logs
+- Security Policies
+
+---
+
+## Integration Services
+
+### Level 2 Capabilities
+
+- CRM Integration
+- ERP Integration
+- Odoo Integration
+- Email Integration
+- API Gateway
+- Webhooks
+- External Services
+- AI Provider Integration
+
+---
+
+# Capability Relationships
+
+Business Capabilities interact as an integrated ecosystem.
+
+Examples include:
+
+- Sales → Procurement
+- Procurement → Finance
+- Procurement → Suppliers
+- Procurement → Inventory
+- Projects → Procurement
+- Contracts → Finance
+- AI → All Business Domains
+- Analytics → All Business Domains
+- Workflow Engine → All Business Domains
+
+---
+
+# AI Integration
+
+Every enterprise capability must expose AI-ready interfaces.
+
+Artificial Intelligence is considered a native enterprise capability and not an optional feature.
+
+AI continuously enhances:
+
+- Decision Making
+- Procurement
+- Sales
+- Finance
+- Knowledge Management
+- Reporting
+- Automation
+
+---
+
+# Enterprise Architecture Alignment
+
+This Capability Model is the highest-level business structure of ETA.
+
+All future documents—including Domain Models, Data Models, APIs, Workflows, AI Agents, ERP Mapping, and Microservices—must trace back to one or more capabilities defined in this document.
+
+---
+
+# Long-Term Vision
+
+The ETA Enterprise Capability Model serves as the master business blueprint for building a scalable, AI-powered procurement ecosystem capable of supporting industrial organizations across the Middle East.
