@@ -1,7 +1,7 @@
 ---
 document_id: ETA-DOMAIN-CON-001
 title: Contract Domain
-version: 2.0
+version: 2.1
 status: Approved
 owner: Exir Tejarat Atlas
 classification: Internal
@@ -12,11 +12,11 @@ last_updated: 2026
 
 ## Purpose
 
-The Contract Domain manages the complete lifecycle of commercial and procurement contracts across the ETA Enterprise Ecosystem.
+The Contract Domain manages the complete lifecycle of commercial, procurement, supplier, customer, engineering, logistics, and project contracts across the ETA Enterprise Ecosystem.
 
-It provides a centralized, auditable, and secure repository for contractual agreements while ensuring compliance with commercial, financial, technical, and legal requirements.
+It provides a centralized, secure, auditable, and AI-powered repository for contractual agreements while ensuring legal compliance, commercial governance, financial traceability, technical consistency, and enterprise-wide collaboration.
 
-The domain connects procurement, finance, projects, suppliers, customers, and AI into one unified contract management system.
+The Contract Domain serves as the legal and commercial backbone connecting Procurement, CRM, Finance, Projects, Suppliers, Manufacturers, Compliance, and Artificial Intelligence.
 
 ---
 
@@ -24,14 +24,16 @@ The domain connects procurement, finance, projects, suppliers, customers, and AI
 
 The Contract Domain enables ETA to:
 
-- Centralize all contracts.
-- Improve contractual compliance.
+- Centralize enterprise contracts.
 - Reduce legal and commercial risks.
-- Manage contract versions.
-- Monitor obligations and milestones.
+- Standardize contract management.
+- Improve contractual compliance.
+- Track obligations and deliverables.
+- Monitor commercial milestones.
 - Integrate contracts with procurement and finance.
 - Preserve contractual knowledge.
-- Support AI-assisted contract analysis.
+- Support AI-assisted contract intelligence.
+- Improve executive visibility over commercial commitments.
 
 ---
 
@@ -44,9 +46,9 @@ The Contract Domain enables ETA to:
 5. Commercial Review
 6. Legal Review
 7. Executive Approval
-8. Contract Signing
+8. Digital Signature
 9. Active Contract
-10. Contract Monitoring
+10. Performance Monitoring
 11. Amendment
 12. Renewal
 13. Close-out
@@ -62,12 +64,16 @@ The Contract Domain enables ETA to:
 - Approval Workflow
 - Digital Signature
 - Amendment Management
+- Renewal Management
 - Obligation Tracking
-- Milestone Tracking
-- Contract Risk Management
-- Contract Analytics
+- Deliverable Tracking
+- Milestone Management
 - Contract Repository
+- Contract Search
+- Contract Analytics
+- Contract Risk Management
 - Compliance Monitoring
+- AI Contract Intelligence
 
 ---
 
@@ -81,27 +87,70 @@ The Contract Domain owns:
 - Contract Clause
 - Contract Amendment
 - Milestone
-- Obligation
 - Deliverable
+- Obligation
 - Payment Schedule
 - Contract Status
+- Contract Template
+- Digital Signature
+- Contract Evidence
 
 ---
 
 # Contract Types
 
-Supported contract categories include:
+ETA supports:
 
 - Purchase Contract
 - Sales Contract
 - Framework Agreement
-- Service Agreement
-- Engineering Contract
 - Supply Agreement
-- NDA
+- Service Agreement
+- Engineering Agreement
+- EPC Agreement
+- Maintenance Agreement
 - Partnership Agreement
 - Logistics Agreement
-- Maintenance Contract
+- Consultancy Agreement
+- NDA
+- Manufacturer Agreement
+- Supplier Agreement
+
+---
+
+# Supported Contract Standards
+
+ETA supports internationally recognized commercial standards including:
+
+- Incoterms® 2020
+- ICC Commercial Practices
+- FIDIC (where applicable)
+- EPC Contract Structures
+- Purchase Order Terms & Conditions
+- Service Level Agreements (SLA)
+
+---
+
+# Contract Documents
+
+Each contract may include:
+
+- Commercial Proposal
+- Technical Proposal
+- RFQ
+- Datasheets
+- Technical Specifications
+- General Arrangement Drawings
+- Inspection Documents
+- Certificates
+- Delivery Schedule
+- Payment Schedule
+- Packing List
+- Warranty Documents
+- Performance Guarantee
+- Advance Payment Guarantee
+- Insurance Documents
+- Supporting Attachments
 
 ---
 
@@ -109,22 +158,26 @@ Supported contract categories include:
 
 Contracts originate from:
 
-- Procurement
 - CRM
+- Procurement
 - Finance
+- Projects
 - Executive Management
 - Legal Department
-- Projects
+- Suppliers
+- Customers
+- Manufacturers
 
 ---
 
 # Outputs
 
-Contract information is consumed by:
+Contract information supports:
 
 - Procurement
 - Finance
 - Project Management
+- Compliance
 - AI
 - Reporting
 - Executive Dashboard
@@ -135,31 +188,54 @@ Contract information is consumed by:
 
 ## CRM
 
-Won Opportunities may generate customer contracts.
+Won opportunities generate customer contracts.
 
 ---
 
 ## Procurement
 
-Approved Purchase Orders may become procurement contracts.
+Approved Purchase Orders generate supplier contracts and procurement agreements.
 
 ---
 
 ## Finance
 
-Contracts generate financial commitments, payment schedules, invoices, guarantees, and receivables.
+Contracts define:
+
+- Payment Schedules
+- Financial Commitments
+- Guarantees
+- Receivables
+- Payables
 
 ---
 
-## Project
+## Projects
 
-Projects inherit contractual scope, milestones, and deliverables.
+Projects inherit:
+
+- Scope
+- Deliverables
+- Milestones
+- Commercial Commitments
 
 ---
 
 ## Supplier
 
-Supplier contracts define purchasing relationships and obligations.
+Supplier contracts define long-term purchasing relationships, pricing rules, and commercial obligations.
+
+---
+
+## Manufacturer
+
+Manufacturer agreements define authorized partnerships, certifications, warranties, and commercial cooperation.
+
+---
+
+## Compliance
+
+Contracts are validated against enterprise policies, legal requirements, sanctions, and regulatory obligations.
 
 ---
 
@@ -167,13 +243,19 @@ Supplier contracts define purchasing relationships and obligations.
 
 AI assists with:
 
-- Clause Review
-- Risk Detection
-- Contract Summaries
+- Contract Summarization
+- Clause Classification
+- Clause Similarity Detection
+- Contract Comparison
+- Risk Assessment
+- Commercial Risk Prediction
+- Compliance Validation
 - Obligation Extraction
 - Deadline Monitoring
-- Amendment Suggestions
-- Compliance Analysis
+- Renewal Prediction
+- Supplier Contract Comparison
+- Contract KPI Extraction
+- Intelligent Recommendations
 
 ---
 
@@ -184,13 +266,15 @@ AI assists with:
 - Amendments never overwrite previous versions.
 - Expired contracts cannot generate new obligations.
 - Signed contracts cannot be deleted.
-- Every approval must be audited.
+- Every approval must be fully audited.
+- All contractual evidence must be preserved.
+- Contract history is permanent.
 
 ---
 
 # Approval Workflow
 
-Typical workflow:
+Typical enterprise workflow:
 
 Contract Owner
 
@@ -224,35 +308,52 @@ Active Contract
 
 ---
 
+# Contract Status
+
+- Draft
+- Under Review
+- Approved
+- Pending Signature
+- Active
+- Suspended
+- Expired
+- Renewed
+- Terminated
+- Archived
+
+---
+
 # KPIs
 
 - Contract Approval Time
 - Active Contracts
-- Expired Contracts
-- Renewal Rate
 - Contract Value
+- Renewal Rate
 - Amendment Frequency
 - Compliance Rate
 - Obligation Completion Rate
 - Contract Risk Score
+- Average Review Time
+- Digital Signature Completion Rate
 
 ---
 
 # Security
 
-Access is controlled through RBAC.
+Access is managed through Enterprise RBAC.
 
-Roles include:
+Supported roles include:
 
 - Contract Owner
-- Commercial Manager
 - Procurement Manager
+- Commercial Manager
+- Technical Manager
 - Finance Manager
 - Legal Advisor
 - Executive
 - Administrator
 
-Every contract action is fully audited.
+Every action is fully audited and version controlled.
 
 ---
 
@@ -268,36 +369,38 @@ Primary Odoo applications:
 - Approvals
 - Project
 
-ETA extends these modules with enterprise contract intelligence.
+ETA extends these applications through enterprise-grade contract intelligence and AI capabilities.
 
 ---
 
 # APIs
 
-Key integrations include:
+Major integrations include:
 
-- CRM
-- Procurement
-- Finance
-- Projects
+- CRM APIs
+- Procurement APIs
+- Finance APIs
+- Project APIs
 - Supplier Portal
+- Manufacturer Portal
 - AI Services
 - Document Management
+- Digital Signature Services
 
 ---
 
-# AI Integration
+# Enterprise Principles
 
-AI capabilities include:
+The Contract Domain follows:
 
-- Contract Summarization
-- Clause Classification
-- Risk Assessment
-- Compliance Validation
-- Deadline Prediction
-- Obligation Monitoring
-- Contract Search
-- Intelligent Recommendations
+- Single Source of Truth
+- Version Controlled
+- Fully Auditable
+- AI Assisted
+- Digital Signature Ready
+- Enterprise Grade Security
+- API First
+- Odoo Native Integration
 
 ---
 
@@ -306,14 +409,16 @@ AI capabilities include:
 Planned capabilities include:
 
 - AI Legal Assistant
-- Automated Contract Generation
+- Autonomous Contract Review
 - Smart Clause Library
-- Blockchain Verification
+- Blockchain Contract Verification
 - Contract Digital Twin
 - Autonomous Compliance Monitoring
+- AI Negotiation Assistant
+- Contract Knowledge Graph
 
 ---
 
 # Long-Term Vision
 
-The Contract Domain becomes ETA's enterprise contract intelligence platform, providing complete visibility, compliance, governance, and AI-assisted lifecycle management for every commercial relationship.
+The Contract Domain becomes ETA's enterprise contract intelligence platform, providing complete visibility, governance, compliance, legal traceability, commercial intelligence, and AI-assisted lifecycle management for every business relationship across the ETA Enterprise Ecosystem.
