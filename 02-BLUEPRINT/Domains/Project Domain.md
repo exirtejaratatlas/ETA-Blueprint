@@ -1,7 +1,7 @@
 ---
 document_id: ETA-DOMAIN-PROJ-001
 title: Project Domain
-version: 2.0
+version: 2.1
 status: Approved
 owner: Exir Tejarat Atlas
 classification: Internal
@@ -12,9 +12,11 @@ last_updated: 2026
 
 ## Purpose
 
-The Project Domain manages the complete lifecycle of customer, procurement, engineering, EPC, and internal projects throughout the ETA Enterprise Ecosystem.
+The Project Domain manages the complete lifecycle of industrial, commercial, engineering, procurement, EPC, maintenance, and internal projects throughout the ETA Enterprise Ecosystem.
 
-Projects integrate CRM opportunities, procurement activities, contracts, finance, logistics, documents, and AI into a unified execution environment.
+Projects act as the operational execution layer of ETA by connecting CRM opportunities, contracts, procurement activities, suppliers, manufacturers, inventory, logistics, finance, documentation, compliance, and artificial intelligence into one unified project management environment.
+
+The Project Domain ensures that every customer commitment is executed efficiently, transparently, and profitably.
 
 ---
 
@@ -22,13 +24,15 @@ Projects integrate CRM opportunities, procurement activities, contracts, finance
 
 The Project Domain enables ETA to:
 
-- Manage industrial projects from initiation to closure.
-- Track procurement progress.
-- Monitor schedules.
-- Control budgets.
-- Coordinate departments.
-- Improve project visibility.
+- Execute customer projects efficiently.
+- Manage engineering deliverables.
+- Coordinate procurement activities.
+- Track schedules and milestones.
+- Control project budgets.
+- Manage project risks.
+- Improve cross-department collaboration.
 - Preserve project knowledge.
+- Monitor project profitability.
 - Support AI-assisted project management.
 
 ---
@@ -36,34 +40,41 @@ The Project Domain enables ETA to:
 # Project Lifecycle
 
 1. Opportunity
-2. Project Initiation
-3. Planning
-4. Budget Approval
-5. Procurement
+2. Project Approval
+3. Project Initiation
+4. Planning
+5. Budget Approval
 6. Engineering
-7. Manufacturing
-8. Logistics
-9. Installation
-10. Commissioning
-11. Handover
-12. Warranty
-13. Project Closure
+7. Procurement
+8. Manufacturing
+9. Logistics
+10. Installation
+11. Commissioning
+12. Customer Acceptance
+13. Warranty
+14. Project Closure
+15. Knowledge Archive
 
 ---
 
 # Core Business Capabilities
 
 - Project Planning
-- Project Budgeting
+- Work Breakdown Structure (WBS)
+- Budget Management
+- Schedule Management
 - Milestone Management
 - Task Management
-- Procurement Tracking
-- Schedule Management
-- Cost Monitoring
 - Resource Planning
-- Risk Management
+- Procurement Coordination
+- Engineering Coordination
 - Document Management
-- Progress Reporting
+- Risk Management
+- Issue Management
+- Cost Monitoring
+- Progress Monitoring
+- Customer Reporting
+- Executive Reporting
 - Lessons Learned
 
 ---
@@ -77,11 +88,30 @@ The Project Domain owns:
 - Milestone
 - Task
 - Budget
+- Cost Item
 - Resource
 - Deliverable
 - Risk
 - Issue
+- Change Request
 - Project Document
+- Progress Report
+- Project KPI
+
+---
+
+# Project Categories
+
+ETA supports projects including:
+
+- Industrial Supply
+- EPC
+- Procurement
+- Engineering
+- Maintenance
+- Consulting
+- Internal Improvement
+- Digital Transformation
 
 ---
 
@@ -90,7 +120,8 @@ The Project Domain owns:
 Projects originate from:
 
 - CRM Opportunities
-- Contracts
+- Customer Contracts
+- Procurement Programs
 - Executive Initiatives
 - Internal Programs
 
@@ -102,6 +133,9 @@ Projects provide information to:
 
 - Procurement
 - Finance
+- Inventory
+- Logistics
+- CRM
 - Executive Dashboard
 - Reporting
 - AI
@@ -113,31 +147,82 @@ Projects provide information to:
 
 ## CRM
 
-Won Opportunities become Projects.
-
----
-
-## Procurement
-
-Project procurement activities are linked to RFQs, Purchase Orders, and Deliveries.
+Won Opportunities automatically become Projects.
 
 ---
 
 ## Contract
 
-Projects execute contractual obligations and deliverables.
+Projects inherit:
+
+- Commercial Scope
+- Deliverables
+- Milestones
+- Commercial Obligations
 
 ---
 
-## Finance
+## Procurement
 
-Projects consume budgets and generate financial reporting.
+Projects coordinate:
+
+- RFQs
+- Quotations
+- Purchase Orders
+- Deliveries
+- Supplier Performance
 
 ---
 
 ## Inventory
 
-Project materials are reserved, consumed, and tracked.
+Inventory supports:
+
+- Material Reservation
+- Material Consumption
+- Warehouse Allocation
+- Stock Visibility
+
+---
+
+## Logistics
+
+Projects monitor:
+
+- Shipping
+- Customs
+- Delivery Status
+- Transportation
+
+---
+
+## Finance
+
+Projects consume:
+
+- Budgets
+- Cost Centers
+- Payments
+- Invoices
+- Profitability Reports
+
+---
+
+## Supplier
+
+Projects coordinate supplier performance and delivery commitments.
+
+---
+
+## Manufacturer
+
+Projects track manufacturing progress, inspections, certifications, and warranties.
+
+---
+
+## Compliance
+
+Projects ensure contractual, technical, financial, and regulatory compliance.
 
 ---
 
@@ -145,13 +230,17 @@ Project materials are reserved, consumed, and tracked.
 
 AI assists with:
 
+- Project Copilot
 - Schedule Prediction
 - Procurement Forecasting
-- Risk Analysis
-- Budget Forecasting
 - Delay Detection
+- Budget Forecasting
 - Resource Optimization
+- Risk Analysis
 - Executive Summaries
+- Knowledge Retrieval
+- Project Health Score
+- Profitability Prediction
 
 ---
 
@@ -159,10 +248,26 @@ AI assists with:
 
 - Every Project has one unique Project ID.
 - Every Project belongs to one Customer.
+- Every Project has one Project Manager.
 - Every Milestone belongs to one Project.
 - Budget revisions require approval.
 - Closed Projects become read-only.
-- Every Project maintains complete audit history.
+- Every project activity is fully audited.
+- Project history is permanently preserved.
+
+---
+
+# Project Status
+
+- Draft
+- Approved
+- Planning
+- Active
+- On Hold
+- Delayed
+- Completed
+- Closed
+- Archived
 
 ---
 
@@ -172,25 +277,30 @@ AI assists with:
 - Schedule Variance
 - Budget Variance
 - Procurement Progress
+- Engineering Progress
+- Delivery Performance
 - Milestone Achievement
 - Customer Satisfaction
 - Resource Utilization
 - Project Profitability
+- Project Health Score
 
 ---
 
 # Security
 
-Roles include:
+Access is managed through Enterprise RBAC.
+
+Supported roles include:
 
 - Project Manager
 - Project Engineer
 - Procurement Manager
-- Finance
+- Finance Manager
 - Executive
 - Administrator
 
-All project activities are fully audited.
+Every project activity is fully audited and version controlled.
 
 ---
 
@@ -205,50 +315,56 @@ Primary Odoo applications:
 - Documents
 - Accounting
 - Approvals
+- Timesheets
 
-ETA extends these modules with enterprise project intelligence.
+ETA extends these applications through enterprise project intelligence and AI.
 
 ---
 
 # APIs
 
-Key integrations:
+Major integrations include:
 
-- CRM
-- Procurement
-- Finance
-- Inventory
-- Contract
+- CRM APIs
+- Procurement APIs
+- Finance APIs
+- Inventory APIs
+- Contract APIs
+- Logistics APIs
 - AI Services
-- Reporting
+- Reporting Services
 
 ---
 
-# AI Integration
+# Enterprise Principles
 
-AI capabilities include:
+The Project Domain follows:
 
-- Project Copilot
-- Schedule Prediction
-- Delay Detection
-- Budget Forecasting
-- Procurement Coordination
-- Executive Reporting
-- Knowledge Retrieval
-- Risk Monitoring
+- Single Source of Truth
+- AI Assisted
+- Enterprise Grade
+- Fully Auditable
+- API First
+- Odoo Native
+- Scalable
+- Knowledge Driven
 
 ---
 
 # Future Enhancements
 
+Planned capabilities include:
+
 - Digital Twin Projects
-- Autonomous Project Assistant
+- Autonomous Project Manager
 - Predictive Scheduling
 - AI Resource Planner
-- Multi-company Project Management
+- Multi-company Project Portfolio
+- Portfolio Optimization
+- Predictive Cost Control
 
 ---
 
 # Long-Term Vision
 
-The Project Domain becomes the execution engine of ETA, connecting commercial activities, procurement, engineering, logistics, finance, and AI into a single intelligent project management ecosystem.
+The Project Domain becomes the operational execution engine of ETA, orchestrating commercial activities, procurement, engineering, inventory, logistics, finance, suppliers, manufacturers, and AI into one intelligent project management ecosystem capable of managing enterprise-scale industrial projects across the Middle East.
