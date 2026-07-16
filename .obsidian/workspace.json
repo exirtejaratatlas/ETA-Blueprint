@@ -200,6 +200,7 @@
   },
   "active": "19a98c8ddfd15f2d",
   "lastOpenFiles": [
+    "HOME.md",
     "04-DATA/Enterprise Data Dictionary.md",
     "02-BLUEPRINT/Domain Interactions.md",
     "04-DATA/Finance/Business Rules Model.md",
@@ -226,7 +227,6 @@
     "03-ARCHITECTURE/Finance/Payment Architecture.md",
     "03-ARCHITECTURE/Finance/Tax Architecture.md",
     "03-ARCHITECTURE/Finance/Accounting Architecture.md",
-    "03-ARCHITECTURE/Finance/Finance Domain Architecture.md",
     "03-ARCHITECTURE/Finance",
     "02-BLUEPRINT/Domains",
     "Untitled.base",
