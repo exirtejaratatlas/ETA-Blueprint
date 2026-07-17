@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3a4b075e9b423c38",
+        "id": "a2f78826a3e50281",
         "type": "tabs",
         "children": [
           {
-            "id": "19a98c8ddfd15f2d",
+            "id": "b6451415c10d8118",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -198,8 +198,17 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "19a98c8ddfd15f2d",
+  "active": "b6451415c10d8118",
   "lastOpenFiles": [
+    "04-DATA/Entities/Quotation/Quotation API.md",
+    "04-DATA/Entities/Quotation/Quotation Odoo Mapping.md",
+    "04-DATA/Entities/Quotation/Quotation Lifecycle.md",
+    "04-DATA/Entities/Quotation/Quotation Business Rules.md",
+    "04-DATA/Entities/Quotation/Quotation Relationships.md",
+    "04-DATA/Entities/Quotation/Quotation Attributes.md",
+    "04-DATA/Entities/Quotation/Quotation Entity.md",
+    "04-DATA/Entities/Quotation/README.md",
+    "04-DATA/Entities/Customer/Customer API.md",
     "HOME.md",
     "04-DATA/Enterprise Data Dictionary.md",
     "02-BLUEPRINT/Domain Interactions.md",
@@ -218,15 +227,6 @@
     "04-DATA/Finance/README.md",
     "04-DATA/Finance",
     "03-ARCHITECTURE/Finance-Architecture.md",
-    "03-ARCHITECTURE/Finance/README.md",
-    "03-ARCHITECTURE/Finance/Financial Security.md",
-    "03-ARCHITECTURE/Finance/Audit Architecture.md",
-    "03-ARCHITECTURE/Finance/Business Rules Engine.md",
-    "03-ARCHITECTURE/Finance/Finance AI Agents.md",
-    "03-ARCHITECTURE/Finance/Financial Integration.md",
-    "03-ARCHITECTURE/Finance/Payment Architecture.md",
-    "03-ARCHITECTURE/Finance/Tax Architecture.md",
-    "03-ARCHITECTURE/Finance/Accounting Architecture.md",
     "03-ARCHITECTURE/Finance",
     "02-BLUEPRINT/Domains",
     "Untitled.base",
