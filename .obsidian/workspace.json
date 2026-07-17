@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7af0e765d7e3487e",
+        "id": "be6f7047d272b8a1",
         "type": "tabs",
         "children": [
           {
-            "id": "e9d318ceb7e3d286",
+            "id": "ecbf036d8744241b",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -198,8 +198,16 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "e9d318ceb7e3d286",
+  "active": "ecbf036d8744241b",
   "lastOpenFiles": [
+    "04-DATA/Entities/Shipment/Shipment API.md",
+    "04-DATA/Entities/Shipment/Shipment Odoo Mapping.md",
+    "04-DATA/Entities/Shipment/Shipment Lifecycle.md",
+    "04-DATA/Entities/Shipment/Shipment Business Rules.md",
+    "04-DATA/Entities/Shipment/Shipment Relationships.md",
+    "04-DATA/Entities/Shipment/Shipment Attributes.md",
+    "04-DATA/Entities/Shipment/Shipment Entity.md",
+    "04-DATA/Entities/Shipment/README.md",
     "04-DATA/Entities/Contract/Contract API.md",
     "04-DATA/Entities/Contract/Contract Odoo Mapping.md",
     "04-DATA/Entities/Contract/Contract Lifecycle.md",
@@ -218,14 +226,6 @@
     "04-DATA/Entities/PurchaseOrder/README.md",
     "04-DATA/Entities/Quotation/Quotation API.md",
     "04-DATA/Entities/Quotation/Quotation Odoo Mapping.md",
-    "04-DATA/Entities/Quotation/Quotation Lifecycle.md",
-    "04-DATA/Entities/Quotation/Quotation Business Rules.md",
-    "04-DATA/Entities/Quotation/Quotation Relationships.md",
-    "04-DATA/Entities/Quotation/Quotation Attributes.md",
-    "04-DATA/Entities/Quotation/Quotation Entity.md",
-    "04-DATA/Entities/Quotation/README.md",
-    "04-DATA/Entities/Customer/Customer API.md",
-    "HOME.md",
     "04-DATA/Finance",
     "03-ARCHITECTURE/Finance",
     "02-BLUEPRINT/Domains",
